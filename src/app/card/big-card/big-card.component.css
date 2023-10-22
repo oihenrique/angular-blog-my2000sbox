@@ -1,0 +1,33 @@
+.container-bigcard {
+    width: 22rem;
+}
+
+.card-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.825rem;
+    margin: 0.5rem
+}
+
+.date-text {
+    font-size: 0.75rem;
+    color: var(--gray-font-color);
+    font-weight: 500;
+}
+
+.card-title {
+    font-size: 1.125rem;
+}
+
+.card-paragraph {
+    font-size: 0.875rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 3.5rem;
+}

@@ -1,0 +1,18 @@
+.container-footer {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1.5rem 20vw;
+    text-align: center;
+    background-color: var(--lime-contrast-green);
+}
+
+.container-footer p a {
+    font-weight: 600;
+    color: var(--dark-font-color);
+    background: transparent;
+    text-decoration: none;
+}
+
+.container-footer p a:hover {
+    color: var(--primary-color);
+}

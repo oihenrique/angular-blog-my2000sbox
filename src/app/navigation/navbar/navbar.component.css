@@ -1,0 +1,33 @@
+.container-navbar {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem 20vw;
+    margin-bottom: 4rem;
+    background-color: var(--primary-color);
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: var(--lime-contrast-green);
+}
+
+.nav-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.container-navbar a {
+    font-weight: 600;
+    color: var(--lime-contrast-green);
+    background: transparent;
+    text-decoration: none;
+}
+
+.container-navbar a:hover {
+    color: var(--background-color)
+}

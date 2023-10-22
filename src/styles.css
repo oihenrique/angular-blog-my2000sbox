@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+@import url(assets/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root {
+    --primary-color: #F2387C;
+    --secondary-color: #3F0A40;
+    --background-color: #FBFBFB;
+    --dark-font-color: #060400;
+    --gray-font-color: #4B4B4D;
+    --dark-blue: #113A8C;
+    --lime-green: #E7F2D5;
+    --lime-contrast-green: #D5F26D;
+}
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Days One', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+}
